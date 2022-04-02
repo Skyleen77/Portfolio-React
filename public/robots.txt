@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /mentions
 
-Sitemap: https://www.elliot-sutton.com/sitemap.xml
+Sitemap: https://www.react.elliot-sutton.com/sitemap.xml
