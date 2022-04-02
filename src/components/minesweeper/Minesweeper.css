@@ -1,0 +1,61 @@
+.game-minesweeper {
+    height: 100vh;
+}
+
+.title-minesweeper {
+    text-align: center;
+    background-color: #026dc5;
+    padding: 10px;
+    margin-bottom: 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.board-wrapper {
+    box-shadow: 0 4px 3px rgba(0,0,0,0.3);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.the-board {
+    margin-top: 43vh; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%);
+}
+
+.cellStyle {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+  
+.tryAgain {
+    border-radius: 10px;
+    transform: translateY(-50%);
+    margin-top: 45vh !important;
+    box-shadow: 0 0px 10px rgba(0,0,0,0.5);
+    background: #7644ff;
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    position: relative;
+    z-index: 10;
+    max-width: 700px;
+    text-align: center;
+    height: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 991px) {
+    .game-minesweeper {
+        height: calc(100vh - 60px);
+    }
+    .the-board {
+        margin-top: 39vh;
+    }
+}

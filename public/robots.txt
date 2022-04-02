@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /mentions
+
+Sitemap: https://www.elliot-sutton.com/sitemap.xml
